@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Minor_Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="batch">Batch (i.e 2015)</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <array name="menuOptions">
+        <item>Home</item>
+        <item>Personal</item>
+        <item>High scores</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Home</item>
+        <item>Personal</item>
+        <item>High scores</item>
+        <item>Settings</item>
+        <item>About</item>
+    </array>
+
+<string name="title">Welcome to IT-Department</string>
+    <string name="scope">Scope </string>
+    <string name="scope.1"> \u25CF The impact of Technological advancements on human life is not complete without the role of Information Technology, along all axes. Hence all-pervading nature of Information Technology is culminated with huge demand for education in the said field. The steady rise in the number of students opting to specialize in Information Technology is a testimony for that.Education in Information Technology imparts the knowledge through which the needs of users within an organizational and societal context can be met.</string>
+    <string name="scope.2">\n\u25CF Information Technology is the most captivating sector of the modern world. Every people and each of the organization are been fascinated by the technique of it.Engineering with IT gives career in Programming, Software project development,computer networks, information and network security etc.</string>
+    <string name="scope.3">\n\u25CF Department is established in the year 2001 and have experienced and well qualified faculty base.</string>
+    <string name="scope.4">\n\u25CF Department have well-equipped laboratories comprising computers with latest configuration,dedicated smart class rooms and Seminar hall.</string>
+    <string name="scope.5">\n\u25CF Department is fully networked with Wi-Fi facility.</string>
+    <string name="scope.6">\n\u25CF Regular and rigorous counselling of students is done by faculty members.</string>
+    <string name="scope.7">\n\u25CF Department organizes remedial classes for academically weak students</string>
+    <string name="scope.8">\n\u25CF Department organizes various expert talks and workshops on emerging technologies like PHP, Andoroid &amp; iOS mobile application development, Python programming, software testing etc.</string>
+
+
+    <string name="major_achievements">Major Achievements</string>
+    <string name="major_achievements.1"> &#160; \u25CF Department is Accredited by National board of Accreditation for 2 years.
+            \n\n \u25CF Always in amongst top 5 ranking in GTU results.
+            \n\n \u25CF More than 200 students are working in various MNCs like TCS, Infosys, L&amp;T,Wipro, GSFC, IBM etc.
+            \n\n \u25CF Many students go for further studies at IITs, IIMs and Abroad.</string>
+
+    <string name="vision">Vision</string>
+    <string name="vision.1">&#160;&#160;&#160;&#160;&#160;&#160;Produce IT engineers with technological and proficient abilities to work on real challenges of the industries and societal needs.</string>
+
+    <string name="mision">Mision</string>
+    <string name="mision.1">1 &#160; Impart knowledge in the state of the art technologies in the field of information technology.
+                            \n\n2.&#160; Educate students with strong fundamentals to make them globally competent.
+                            \n\n3.&#160;Inculcate the spirit of team work, societal responsibilities and professionalism among the students and faculties.</string>
+
+    <string name="peo"> Program Educational Objectives</string>
+    <string name="peo.1">&#160;\u25CF Inculcate innovative programming practice.
+        \n\n \u25CF Provide sustainable competitive edge in software development.
+        \n\n \u25CF Adapt state-of-the-art technology in the field of ITES sector.
+        \n\n \u25CF Collaborate in teams to accomplish a common goal by integrating personal initiative and group cooperation.
+        \n\n \u25CF Demonstrate professional and ethical responsibility towards their profession, society and the environment as well as the respect for diversity.
+        \n\n \u25CF Pursue a successful career in the field of Computer and Information Technology.</string>
+
+    <string name="pso">Program Specific Outcomes</string>
+    <string name="pso.1">&#160; \u25CF Demonstrate the ability to develop a software applications on various platforms using different programming languages.
+        \n\n \u25CF Re-engineer the system software for emerging industry trends by accessing and critically evaluating relevant technical and business information.
+        \n\n \u25CF Demonstrate the ability to model and securely integrate the applications for various network configurations.
+        \n\n \u25CF Configure and administer database servers to support contemporary business environments.</string>
+
+</resources>
+

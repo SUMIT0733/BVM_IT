@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.PopupOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/title"
+                android:textSize="30dp" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/vision_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:textSize="20dp"
+                android:text="@string/vision"/>
+            <TextView
+                android:id="@+id/vision_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:background="@drawable/rounded_textview"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="@string/vision.1"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/mission_lable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:textSize="20dp"
+                android:text="@string/mision"/>
+            <TextView
+                android:id="@+id/mission_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:background="@drawable/rounded_textview"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="@string/mision.1"/>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/scope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scope"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@drawable/rounded_textview"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:id="@+id/scope_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.6"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope.8"/>
+            </LinearLayout>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/major_achivements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/major_achievements"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+
+
+            <LinearLayout
+                android:id="@+id/major_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_textview"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:text="@string/major_achievements.1"/>
+            </LinearLayout>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/peo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:textSize="20dp"
+                android:text="@string/peo"/>
+            <TextView
+                android:id="@+id/peo_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_textview"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="@string/peo.1"
+                android:visibility="gone"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:id="@+id/pso"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:textSize="20dp"
+                android:text="@string/pso"/>
+            <TextView
+                android:id="@+id/pso_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/pso.1"
+                android:background="@drawable/rounded_textview"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:visibility="gone"/>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/more_info" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
